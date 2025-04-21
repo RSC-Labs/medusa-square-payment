@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Medusa Square Payment is a basic integration of payment provider for Square.
+Medusa Square Payment is a basic integration of payment provider for Square Payment.
 
 ## Installation
 
