@@ -48,7 +48,7 @@ class SquarePaymentProviderService extends AbstractPaymentProvider<
       )
     }
     if (options.environment) {
-      if (options.environment !== 'production' && options.environment !== "sandobx") {
+      if (options.environment !== 'production' && options.environment !== "sandbox") {
         throw new MedusaError(
           MedusaError.Types.INVALID_DATA,
           "environment needs to be either production or sandbox"
